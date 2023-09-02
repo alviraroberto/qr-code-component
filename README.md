@@ -1,5 +1,6 @@
 ## QR code component solution
 
+![image](./screenshot.png)
 
 ### Tabla de contenido
 
