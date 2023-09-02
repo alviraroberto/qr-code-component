@@ -1,4 +1,4 @@
-## QR code component solution
+## Componente de QR Code
 
 ![image](./screenshot.png)
 
