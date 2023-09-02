@@ -1,6 +1,8 @@
 body{
     background-color:rgb(205, 219, 229);
     font-family: 'Rubik', sans-serif;
+    overflow-x: hidden;
+    margin: auto;
 }
 
 
@@ -13,8 +15,11 @@ body{
     margin: 0 auto;
     box-shadow: 6px 3px 10px gray;
     border-radius: 10px;
-    position: relative;
     background-color: aliceblue;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .qr-code-box {
