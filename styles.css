@@ -1,0 +1,74 @@
+body{
+    background-color:rgb(205, 219, 229);
+    font-family: 'Rubik', sans-serif;
+}
+
+
+.container{
+    width:300px;
+    height: 500px;
+    align-items: center;
+    display: block;
+    justify-content: center;
+    margin: 0 auto;
+    box-shadow: 6px 3px 10px gray;
+    border-radius: 10px;
+    position: relative;
+    background-color: aliceblue;
+}
+
+.qr-code-box {
+    width: 300px;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    align-items: center;
+
+}
+
+
+#qr-img {
+    width: 250px;
+    height: 250px;
+    border-radius: 9px;
+
+}
+
+.qr-code-message {
+    width: 250px;
+    height: 200px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+}
+
+h3 {
+
+    font-size: medium;
+    text-align: center;
+}
+
+p {
+   
+    font-size: 15px;
+    line-height: 1.5;
+    text-align:justify;
+    align-items: center;
+    flex-direction: row;
+    position: relative;
+    display: flex;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    font-size: small;
+    font-weight: 100;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: 40px auto;
+    color: rgb(43, 42, 42)
+}
